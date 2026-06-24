@@ -37,8 +37,8 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['pagination_first_link'] = '&lsaquo; Перша';
-$lang['pagination_next_link'] = '&gt; Наступна';
-$lang['pagination_prev_link'] = '&lt; Попередня';
-$lang['pagination_last_link'] = 'Остання &rsaquo;';
+$lang['pagination_first_link'] = '&lsaquo; ÐŸÐµÑ€ÑˆÐ°';
+$lang['pagination_next_link'] = '&gt; ÐÐ°ÑÑ‚ÑƒÐ¿Ð½Ð°';
+$lang['pagination_prev_link'] = '&lt; ÐŸÐ¾Ð¿ÐµÑ€ÐµÐ´Ð½Ñ';
+$lang['pagination_last_link'] = 'ÐžÑÑ‚Ð°Ð½Ð½Ñ &rsaquo;';
 

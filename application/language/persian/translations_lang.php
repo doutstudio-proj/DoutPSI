@@ -1,4 +1,4 @@
-﻿<?php defined('BASEPATH') or exit('No direct script access allowed');
+<?php defined('BASEPATH') or exit('No direct script access allowed');
 // Persian-by Mohsen Shamohamadi (mhsenpc@gmail.com)
 $lang['page_title'] = 'ثبت قرار ملاقات با';
 $lang['service_and_provider'] = 'خدمات و ارائه دهنده';

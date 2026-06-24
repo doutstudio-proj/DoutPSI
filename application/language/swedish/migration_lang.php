@@ -7,11 +7,11 @@
  * @license    http://opensource.org/licenses/MIT	MIT License
  * @link    https://codeigniter.com
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
+defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
 
 $lang['migration_none_found'] = 'Hittade inga migrationer.';
 $lang['migration_not_found'] = 'Hittade inga migrationer med versionsnummer: %s.';
-$lang['migration_sequence_gap'] = 'Det saknas delar i migrationssekvensen för version nummer: %s.';
+$lang['migration_sequence_gap'] = 'Det saknas delar i migrationssekvensen fÃ¶r version nummer: %s.';
 $lang['migration_multiple_version'] = 'Det finns flera migrationer med samma versionsnummer: %s.';
 $lang['migration_class_doesnt_exist'] = 'Migrationsklassen "%s" hittades inte.';
 $lang['migration_missing_up_method'] = 'Migrationsklassen "%s" saknar "up"-metoden.';

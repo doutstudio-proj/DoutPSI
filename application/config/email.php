@@ -1,4 +1,4 @@
-﻿<?php defined('BASEPATH') or exit('No direct script access allowed');
+<?php defined('BASEPATH') or exit('No direct script access allowed');
 
 // Add custom values by settings them to the $config array.
 // Example: $config['smtp_host'] = 'smtp.gmail.com';

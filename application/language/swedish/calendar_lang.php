@@ -35,29 +35,29 @@
  * @since    Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
+defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
 
-$lang['cal_su'] = 'Sö';
+$lang['cal_su'] = 'SÃ¶';
 $lang['cal_mo'] = 'Mo';
 $lang['cal_tu'] = 'Ti';
 $lang['cal_we'] = 'On';
 $lang['cal_th'] = 'To';
 $lang['cal_fr'] = 'Fr';
-$lang['cal_sa'] = 'Lö';
-$lang['cal_sun'] = 'Sön';
-$lang['cal_mon'] = 'Mån';
+$lang['cal_sa'] = 'LÃ¶';
+$lang['cal_sun'] = 'SÃ¶n';
+$lang['cal_mon'] = 'MÃ¥n';
 $lang['cal_tue'] = 'Tis';
 $lang['cal_wed'] = 'Ons';
 $lang['cal_thu'] = 'Tor';
 $lang['cal_fri'] = 'Fre';
-$lang['cal_sat'] = 'Lör';
-$lang['cal_sunday'] = 'Söndag';
-$lang['cal_monday'] = 'Måndag';
+$lang['cal_sat'] = 'LÃ¶r';
+$lang['cal_sunday'] = 'SÃ¶ndag';
+$lang['cal_monday'] = 'MÃ¥ndag';
 $lang['cal_tuesday'] = 'Tisdag';
 $lang['cal_wednesday'] = 'Onsdag';
 $lang['cal_thursday'] = 'Torsdag';
 $lang['cal_friday'] = 'Fredag';
-$lang['cal_saturday'] = 'Lördag';
+$lang['cal_saturday'] = 'LÃ¶rdag';
 $lang['cal_jan'] = 'Jan';
 $lang['cal_feb'] = 'Feb';
 $lang['cal_mar'] = 'Mar';

@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = '找不到任何遷移。';
-$lang['migration_not_found'] = '找不到版本號為 %s 的遷移。';
-$lang['migration_sequence_gap'] = '在版本號 %s 附近的遷移序列中存在落差。';
-$lang['migration_multiple_version'] = '存在多個具有相同版本號的遷移：%s。';
-$lang['migration_class_doesnt_exist'] = '遷移類別 "%s" 無法找到。';
-$lang['migration_missing_up_method'] = '遷移類別 "%s" 缺少 "up" 方法。';
-$lang['migration_missing_down_method'] = '遷移類別 "%s" 缺少 "down" 方法。';
-$lang['migration_invalid_filename'] = '遷移 "%s" 的檔案名稱無效。';
+$lang['migration_none_found'] = 'æ‰¾ä¸åˆ°ä»»ä½•é·ç§»ã€‚';
+$lang['migration_not_found'] = 'æ‰¾ä¸åˆ°ç‰ˆæœ¬è™Ÿç‚º %s çš„é·ç§»ã€‚';
+$lang['migration_sequence_gap'] = 'åœ¨ç‰ˆæœ¬è™Ÿ %s é™„è¿‘çš„é·ç§»åºåˆ—ä¸­å­˜åœ¨è½å·®ã€‚';
+$lang['migration_multiple_version'] = 'å­˜åœ¨å¤šå€‹å…·æœ‰ç›¸åŒç‰ˆæœ¬è™Ÿçš„é·ç§»ï¼š%sã€‚';
+$lang['migration_class_doesnt_exist'] = 'é·ç§»é¡žåˆ¥ "%s" ç„¡æ³•æ‰¾åˆ°ã€‚';
+$lang['migration_missing_up_method'] = 'é·ç§»é¡žåˆ¥ "%s" ç¼ºå°‘ "up" æ–¹æ³•ã€‚';
+$lang['migration_missing_down_method'] = 'é·ç§»é¡žåˆ¥ "%s" ç¼ºå°‘ "down" æ–¹æ³•ã€‚';
+$lang['migration_invalid_filename'] = 'é·ç§» "%s" çš„æª”æ¡ˆåç¨±ç„¡æ•ˆã€‚';

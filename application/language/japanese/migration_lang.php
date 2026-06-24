@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'マイグレーション対象は見つかりませんでした';
-$lang['migration_not_found'] = '%sのバージョンではマイグレーション対象は見つかりませんでした';
-$lang['migration_sequence_gap'] = '%sのバージョンではマイグレーション順序にギャップがあります';
-$lang['migration_multiple_version'] = '複数のマイグレーションが%sのバージョンであります';
-$lang['migration_class_doesnt_exist'] = 'マイグレーションクラス "%s"が見つかりません';
-$lang['migration_missing_up_method'] = '"up"メソッドではマイグレーションクラス "%s" は見つかりません';
-$lang['migration_missing_down_method'] = '"down"メソッドではマイグレーションクラス "%s" は見つかりません';
-$lang['migration_invalid_filename'] = 'マイグレーション "%s" に不正なファイル名があります';
+$lang['migration_none_found'] = 'ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³å¯¾è±¡ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ';
+$lang['migration_not_found'] = '%sã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§ã¯ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³å¯¾è±¡ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ';
+$lang['migration_sequence_gap'] = '%sã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§ã¯ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³é †åºã«ã‚®ãƒ£ãƒƒãƒ—ãŒã‚ã‚Šã¾ã™';
+$lang['migration_multiple_version'] = 'è¤‡æ•°ã®ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãŒ%sã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§ã‚ã‚Šã¾ã™';
+$lang['migration_class_doesnt_exist'] = 'ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã‚¯ãƒ©ã‚¹ "%s"ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“';
+$lang['migration_missing_up_method'] = '"up"ãƒ¡ã‚½ãƒƒãƒ‰ã§ã¯ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã‚¯ãƒ©ã‚¹ "%s" ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“';
+$lang['migration_missing_down_method'] = '"down"ãƒ¡ã‚½ãƒƒãƒ‰ã§ã¯ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã‚¯ãƒ©ã‚¹ "%s" ã¯è¦‹ã¤ã‹ã‚Šã¾ã›ã‚“';
+$lang['migration_invalid_filename'] = 'ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ "%s" ã«ä¸æ­£ãªãƒ•ã‚¡ã‚¤ãƒ«åãŒã‚ã‚Šã¾ã™';

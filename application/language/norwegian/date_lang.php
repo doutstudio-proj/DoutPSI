@@ -37,10 +37,10 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['date_year'] = 'År';
-$lang['date_years'] = 'År';
-$lang['date_month'] = 'Måned';
-$lang['date_months'] = 'Måneder';
+$lang['date_year'] = 'Ã…r';
+$lang['date_years'] = 'Ã…r';
+$lang['date_month'] = 'MÃ¥ned';
+$lang['date_months'] = 'MÃ¥neder';
 $lang['date_week'] = 'Uke';
 $lang['date_weeks'] = 'Uker';
 $lang['date_day'] = 'Dag';

@@ -37,11 +37,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'Migraatioita ei löytynyt.';
-$lang['migration_not_found'] = 'Migraatioita ei löytynyt versiolle: %s.';
-$lang['migration_sequence_gap'] = 'Migraatioissa on väli lähellä versiota %s.';
-$lang['migration_multiple_version'] = 'Useita migraatioita löytyi samalle versionumerolle: %s.';
-$lang['migration_class_doesnt_exist'] = 'Migraatioluokkaa "%s" ei löytynyt.';
+$lang['migration_none_found'] = 'Migraatioita ei lÃ¶ytynyt.';
+$lang['migration_not_found'] = 'Migraatioita ei lÃ¶ytynyt versiolle: %s.';
+$lang['migration_sequence_gap'] = 'Migraatioissa on vÃ¤li lÃ¤hellÃ¤ versiota %s.';
+$lang['migration_multiple_version'] = 'Useita migraatioita lÃ¶ytyi samalle versionumerolle: %s.';
+$lang['migration_class_doesnt_exist'] = 'Migraatioluokkaa "%s" ei lÃ¶ytynyt.';
 $lang['migration_missing_up_method'] = 'Migraatioluokasta "%s" puuttuu "up" -metodi.';
 $lang['migration_missing_down_method'] = 'Migraatioluokasta "%s" puuttuu "down" metodi.';
 $lang['migration_invalid_filename'] = 'Migraatiolla "%s" on virheellinen tiedostonimi.';

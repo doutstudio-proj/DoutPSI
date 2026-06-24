@@ -39,18 +39,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $lang['date_year'] = 'Metai';
 $lang['date_years'] = 'Metai';
-$lang['date_month'] = 'Mėnuo';
-$lang['date_months'] = 'Mėnesiai';
-$lang['date_week'] = 'Savaitė';
-$lang['date_weeks'] = 'Savaitės';
+$lang['date_month'] = 'MÄ—nuo';
+$lang['date_months'] = 'MÄ—nesiai';
+$lang['date_week'] = 'SavaitÄ—';
+$lang['date_weeks'] = 'SavaitÄ—s';
 $lang['date_day'] = 'Diena';
 $lang['date_days'] = 'Dienos';
 $lang['date_hour'] = 'Valanda';
 $lang['date_hours'] = 'Valandos';
-$lang['date_minute'] = 'Minutė';
-$lang['date_minutes'] = 'Minutės';
-$lang['date_second'] = 'Sekundė';
-$lang['date_seconds'] = 'Sekundės';
+$lang['date_minute'] = 'MinutÄ—';
+$lang['date_minutes'] = 'MinutÄ—s';
+$lang['date_second'] = 'SekundÄ—';
+$lang['date_seconds'] = 'SekundÄ—s';
 
 $lang['UM12'] = '(UTC -12:00) Baker/Howland Island';
 $lang['UM11'] = '(UTC -11:00) Niue';

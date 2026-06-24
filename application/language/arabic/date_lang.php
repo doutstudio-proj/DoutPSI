@@ -37,20 +37,20 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['date_year'] = 'سنة';
-$lang['date_years'] = 'سنوات';
-$lang['date_month'] = 'شهر';
-$lang['date_months'] = 'شهور';
-$lang['date_week'] = 'أسبوع';
-$lang['date_weeks'] = 'أسابيع';
-$lang['date_day'] = 'يوم';
-$lang['date_days'] = 'أيام';
-$lang['date_hour'] = 'ساعة';
-$lang['date_hours'] = 'ساعات';
-$lang['date_minute'] = 'دقيقة';
-$lang['date_minutes'] = 'دقائق';
-$lang['date_second'] = 'ثانية';
-$lang['date_seconds'] = 'ثوان';
+$lang['date_year'] = 'Ø³Ù†Ø©';
+$lang['date_years'] = 'Ø³Ù†ÙˆØ§Øª';
+$lang['date_month'] = 'Ø´Ù‡Ø±';
+$lang['date_months'] = 'Ø´Ù‡ÙˆØ±';
+$lang['date_week'] = 'Ø£Ø³Ø¨ÙˆØ¹';
+$lang['date_weeks'] = 'Ø£Ø³Ø§Ø¨ÙŠØ¹';
+$lang['date_day'] = 'ÙŠÙˆÙ…';
+$lang['date_days'] = 'Ø£ÙŠØ§Ù…';
+$lang['date_hour'] = 'Ø³Ø§Ø¹Ø©';
+$lang['date_hours'] = 'Ø³Ø§Ø¹Ø§Øª';
+$lang['date_minute'] = 'Ø¯Ù‚ÙŠÙ‚Ø©';
+$lang['date_minutes'] = 'Ø¯Ù‚Ø§Ø¦Ù‚';
+$lang['date_second'] = 'Ø«Ø§Ù†ÙŠØ©';
+$lang['date_seconds'] = 'Ø«ÙˆØ§Ù†';
 
 $lang['UM12'] = '(UTC -12:00) Baker/Howland Island';
 $lang['UM11'] = '(UTC -11:00) Niue';

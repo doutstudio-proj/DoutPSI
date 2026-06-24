@@ -1,4 +1,4 @@
-﻿<?php use JetBrains\PhpStorm\NoReturn;
+<?php use JetBrains\PhpStorm\NoReturn;
 
 defined('BASEPATH') or exit('No direct script access allowed');
 

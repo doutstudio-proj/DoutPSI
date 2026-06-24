@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="<?= config('language_code') ?>">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">

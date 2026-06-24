@@ -37,15 +37,15 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'Impossible de trouver un ID de connexion valide. Assurez-vous d’être connecté avant d’effectuer des routines de fichiers.';
-$lang['ftp_unable_to_connect'] = 'Impossible de se connecter à votre serveur FTP à l’aide du nom d’hôte fourni.';
-$lang['ftp_unable_to_login'] = 'Impossible de se connecter à votre serveur FTP. Veuillez vérifier votre nom d’utilisateur et votre mot de passe.';
-$lang['ftp_unable_to_mkdir'] = 'Impossible de créer le répertoire que vous avez spécifié.';
-$lang['ftp_unable_to_changedir'] = 'Impossible de changer de répertoire.';
-$lang['ftp_unable_to_chmod'] = 'Impossible de définir les autorisations de fichier. S’il vous plaît vérifier votre chemin.';
-$lang['ftp_unable_to_upload'] = 'Impossible de téléverser le fichier spécifié. S’il vous plaît vérifier votre chemin.';
-$lang['ftp_unable_to_download'] = 'Impossible de télécharger le fichier spécifié. S’il vous plaît vérifier votre chemin.';
-$lang['ftp_no_source_file'] = 'Impossible de localiser le fichier source. S’il vous plaît vérifier votre chemin.';
+$lang['ftp_no_connection'] = 'Impossible de trouver un ID de connexion valide. Assurez-vous dâ€™Ãªtre connectÃ© avant dâ€™effectuer des routines de fichiers.';
+$lang['ftp_unable_to_connect'] = 'Impossible de se connecter Ã  votre serveur FTP Ã  lâ€™aide du nom dâ€™hÃ´te fourni.';
+$lang['ftp_unable_to_login'] = 'Impossible de se connecter Ã  votre serveur FTP. Veuillez vÃ©rifier votre nom dâ€™utilisateur et votre mot de passe.';
+$lang['ftp_unable_to_mkdir'] = 'Impossible de crÃ©er le rÃ©pertoire que vous avez spÃ©cifiÃ©.';
+$lang['ftp_unable_to_changedir'] = 'Impossible de changer de rÃ©pertoire.';
+$lang['ftp_unable_to_chmod'] = 'Impossible de dÃ©finir les autorisations de fichier. Sâ€™il vous plaÃ®t vÃ©rifier votre chemin.';
+$lang['ftp_unable_to_upload'] = 'Impossible de tÃ©lÃ©verser le fichier spÃ©cifiÃ©. Sâ€™il vous plaÃ®t vÃ©rifier votre chemin.';
+$lang['ftp_unable_to_download'] = 'Impossible de tÃ©lÃ©charger le fichier spÃ©cifiÃ©. Sâ€™il vous plaÃ®t vÃ©rifier votre chemin.';
+$lang['ftp_no_source_file'] = 'Impossible de localiser le fichier source. Sâ€™il vous plaÃ®t vÃ©rifier votre chemin.';
 $lang['ftp_unable_to_rename'] = 'Impossible de renommer le fichier.';
 $lang['ftp_unable_to_delete'] = 'Impossible de supprimer le fichier.';
-$lang['ftp_unable_to_move'] = 'Impossible de déplacer le fichier. Assurez-vous que le répertoire de destination existe.';
+$lang['ftp_unable_to_move'] = 'Impossible de dÃ©placer le fichier. Assurez-vous que le rÃ©pertoire de destination existe.';

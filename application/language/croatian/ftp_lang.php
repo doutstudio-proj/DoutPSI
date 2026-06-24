@@ -37,15 +37,15 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'Nije moguće pronaći važeći ID veze. Provjerite jeste li povezani prije izvođenja bilo kakvih operacija s datotekama.';
-$lang['ftp_unable_to_connect'] = 'Nije moguće povezati se s vašim FTP poslužiteljem koristeći navedeni naziv poslužitelja.';
-$lang['ftp_unable_to_login'] = 'Nije moguće prijaviti se na vaš FTP poslužitelj. Provjerite svoje korisničko ime i lozinku.';
-$lang['ftp_unable_to_mkdir'] = 'Nije moguće stvoriti direktorij koji ste naveli.';
-$lang['ftp_unable_to_changedir'] = 'Nije moguće promijeniti direktorije.';
-$lang['ftp_unable_to_chmod'] = 'Nije moguće postaviti dozvole za datoteku. Provjerite svoj put.';
-$lang['ftp_unable_to_upload'] = 'Nije moguće učitati navedenu datoteku. Provjerite svoj put.';
-$lang['ftp_unable_to_download'] = 'Nije moguće preuzeti navedenu datoteku. Provjerite svoj put.';
-$lang['ftp_no_source_file'] = 'Nije moguće pronaći izvornu datoteku. Provjerite svoj put.';
-$lang['ftp_unable_to_rename'] = 'Nije moguće preimenovati datoteku.';
-$lang['ftp_unable_to_delete'] = 'Nije moguće izbrisati datoteku.';
-$lang['ftp_unable_to_move'] = 'Nije moguće premjestiti datoteku. Provjerite postoji li odredišni direktorij.';
+$lang['ftp_no_connection'] = 'Nije moguÄ‡e pronaÄ‡i vaÅ¾eÄ‡i ID veze. Provjerite jeste li povezani prije izvoÄ‘enja bilo kakvih operacija s datotekama.';
+$lang['ftp_unable_to_connect'] = 'Nije moguÄ‡e povezati se s vaÅ¡im FTP posluÅ¾iteljem koristeÄ‡i navedeni naziv posluÅ¾itelja.';
+$lang['ftp_unable_to_login'] = 'Nije moguÄ‡e prijaviti se na vaÅ¡ FTP posluÅ¾itelj. Provjerite svoje korisniÄko ime i lozinku.';
+$lang['ftp_unable_to_mkdir'] = 'Nije moguÄ‡e stvoriti direktorij koji ste naveli.';
+$lang['ftp_unable_to_changedir'] = 'Nije moguÄ‡e promijeniti direktorije.';
+$lang['ftp_unable_to_chmod'] = 'Nije moguÄ‡e postaviti dozvole za datoteku. Provjerite svoj put.';
+$lang['ftp_unable_to_upload'] = 'Nije moguÄ‡e uÄitati navedenu datoteku. Provjerite svoj put.';
+$lang['ftp_unable_to_download'] = 'Nije moguÄ‡e preuzeti navedenu datoteku. Provjerite svoj put.';
+$lang['ftp_no_source_file'] = 'Nije moguÄ‡e pronaÄ‡i izvornu datoteku. Provjerite svoj put.';
+$lang['ftp_unable_to_rename'] = 'Nije moguÄ‡e preimenovati datoteku.';
+$lang['ftp_unable_to_delete'] = 'Nije moguÄ‡e izbrisati datoteku.';
+$lang['ftp_unable_to_move'] = 'Nije moguÄ‡e premjestiti datoteku. Provjerite postoji li odrediÅ¡ni direktorij.';

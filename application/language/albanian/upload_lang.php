@@ -37,19 +37,19 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'Nuk mund të gjendet një variabël postimi e quajtur userfile.';
-$lang['upload_file_exceeds_limit'] = 'Skedari i ngarkuar tejkalon madhësinë maksimale të lejuar në skedarin e konfigurimit të PHP-së tuaj.';
-$lang['upload_file_exceeds_form_limit'] = 'Skedari i ngarkuar tejkalon madhësinë maksimale të lejuar nga formulari i dorëzimit.';
-$lang['upload_file_partial'] = 'Skedari u ngarkua vetëm pjesërisht.';
-$lang['upload_no_temp_directory'] = 'Dosja e përkohshme mungon.';
-$lang['upload_unable_to_write_file'] = 'Skedari nuk mund të shkruhet në disk.';
-$lang['upload_stopped_by_extension'] = 'Ngarkimi i skedarit u ndalua nga një zgjerim.';
-$lang['upload_no_file_selected'] = 'Ju nuk zgjodhët një skedar për të ngarkuar.';
-$lang['upload_invalid_filetype'] = 'Lloji i skedarit që po përpiqeni të ngarkoni nuk lejohet.';
-$lang['upload_invalid_filesize'] = 'Skedari që po përpiqeni të ngarkoni është më i madh se madhësia e lejuar.';
-$lang['upload_invalid_dimensions'] = 'Imazhi që po përpiqeni të ngarkoni nuk përputhet me dimensionet e lejuara.';
-$lang['upload_destination_error'] = 'Ndodhi një problem gjatë përpjekjes për të lëvizur skedarin e ngarkuar në destinacionin përfundimtar.';
-$lang['upload_no_filepath'] = 'Shtegu i ngarkimit nuk duket të jetë i vlefshëm.';
-$lang['upload_no_file_types'] = 'Ju nuk keni specifikuar ndonjë lloj skedari të lejuar.';
-$lang['upload_bad_filename'] = 'Emri i skedarit që keni dorëzuar tashmë ekziston në server.';
-$lang['upload_not_writable'] = 'Dosja e destinacionit të ngarkimit nuk duket të jetë e shkrueshme.';
+$lang['upload_userfile_not_set'] = 'Nuk mund tÃ« gjendet njÃ« variabÃ«l postimi e quajtur userfile.';
+$lang['upload_file_exceeds_limit'] = 'Skedari i ngarkuar tejkalon madhÃ«sinÃ« maksimale tÃ« lejuar nÃ« skedarin e konfigurimit tÃ« PHP-sÃ« tuaj.';
+$lang['upload_file_exceeds_form_limit'] = 'Skedari i ngarkuar tejkalon madhÃ«sinÃ« maksimale tÃ« lejuar nga formulari i dorÃ«zimit.';
+$lang['upload_file_partial'] = 'Skedari u ngarkua vetÃ«m pjesÃ«risht.';
+$lang['upload_no_temp_directory'] = 'Dosja e pÃ«rkohshme mungon.';
+$lang['upload_unable_to_write_file'] = 'Skedari nuk mund tÃ« shkruhet nÃ« disk.';
+$lang['upload_stopped_by_extension'] = 'Ngarkimi i skedarit u ndalua nga njÃ« zgjerim.';
+$lang['upload_no_file_selected'] = 'Ju nuk zgjodhÃ«t njÃ« skedar pÃ«r tÃ« ngarkuar.';
+$lang['upload_invalid_filetype'] = 'Lloji i skedarit qÃ« po pÃ«rpiqeni tÃ« ngarkoni nuk lejohet.';
+$lang['upload_invalid_filesize'] = 'Skedari qÃ« po pÃ«rpiqeni tÃ« ngarkoni Ã«shtÃ« mÃ« i madh se madhÃ«sia e lejuar.';
+$lang['upload_invalid_dimensions'] = 'Imazhi qÃ« po pÃ«rpiqeni tÃ« ngarkoni nuk pÃ«rputhet me dimensionet e lejuara.';
+$lang['upload_destination_error'] = 'Ndodhi njÃ« problem gjatÃ« pÃ«rpjekjes pÃ«r tÃ« lÃ«vizur skedarin e ngarkuar nÃ« destinacionin pÃ«rfundimtar.';
+$lang['upload_no_filepath'] = 'Shtegu i ngarkimit nuk duket tÃ« jetÃ« i vlefshÃ«m.';
+$lang['upload_no_file_types'] = 'Ju nuk keni specifikuar ndonjÃ« lloj skedari tÃ« lejuar.';
+$lang['upload_bad_filename'] = 'Emri i skedarit qÃ« keni dorÃ«zuar tashmÃ« ekziston nÃ« server.';
+$lang['upload_not_writable'] = 'Dosja e destinacionit tÃ« ngarkimit nuk duket tÃ« jetÃ« e shkrueshme.';

@@ -37,20 +37,20 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['date_year'] = 'Рік';
-$lang['date_years'] = 'Роки';
-$lang['date_month'] = 'Місяць';
-$lang['date_months'] = 'Місяці';
-$lang['date_week'] = 'Тиждень';
-$lang['date_weeks'] = 'Тижні';
-$lang['date_day'] = 'День';
-$lang['date_days'] = 'Дні';
-$lang['date_hour'] = 'Година';
-$lang['date_hours'] = 'Години';
-$lang['date_minute'] = 'Хвилина';
-$lang['date_minutes'] = 'Хвилини';
-$lang['date_second'] = 'Секунда';
-$lang['date_seconds'] = 'Секунди';
+$lang['date_year'] = 'Ð Ñ–Ðº';
+$lang['date_years'] = 'Ð Ð¾ÐºÐ¸';
+$lang['date_month'] = 'ÐœÑ–ÑÑÑ†ÑŒ';
+$lang['date_months'] = 'ÐœÑ–ÑÑÑ†Ñ–';
+$lang['date_week'] = 'Ð¢Ð¸Ð¶Ð´ÐµÐ½ÑŒ';
+$lang['date_weeks'] = 'Ð¢Ð¸Ð¶Ð½Ñ–';
+$lang['date_day'] = 'Ð”ÐµÐ½ÑŒ';
+$lang['date_days'] = 'Ð”Ð½Ñ–';
+$lang['date_hour'] = 'Ð“Ð¾Ð´Ð¸Ð½Ð°';
+$lang['date_hours'] = 'Ð“Ð¾Ð´Ð¸Ð½Ð¸';
+$lang['date_minute'] = 'Ð¥Ð²Ð¸Ð»Ð¸Ð½Ð°';
+$lang['date_minutes'] = 'Ð¥Ð²Ð¸Ð»Ð¸Ð½Ð¸';
+$lang['date_second'] = 'Ð¡ÐµÐºÑƒÐ½Ð´Ð°';
+$lang['date_seconds'] = 'Ð¡ÐµÐºÑƒÐ½Ð´Ð¸';
 
 
 $lang['UM12'] = '(UTC -12:00) Baker/Howland Island';

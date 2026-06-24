@@ -17,7 +17,7 @@
 
         <div class="d-flex justify-content-center justify-content-md-start">
             <span class="display-booking-selection small fw-normal text-white-50">
-                <?= lang('service') ?> │ <?= lang('provider') ?>
+                <?= lang('service') ?> â”‚ <?= lang('provider') ?>
             </span>
         </div>
     </div>

@@ -37,22 +37,22 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ut_test_name'] = 'Имя теста';
-$lang['ut_test_datatype'] = 'Тестовый тип данных';
-$lang['ut_res_datatype'] = 'Ожидаемый тип данных';
-$lang['ut_result'] = 'Результат';
-$lang['ut_undefined'] = 'Неопределенное имя теста';
-$lang['ut_file'] = 'Имя файла';
-$lang['ut_line'] = 'Номер строки';
-$lang['ut_passed'] = 'Пройденный';
-$lang['ut_failed'] = 'Неудачный';
-$lang['ut_boolean'] = 'Логический';
-$lang['ut_integer'] = 'Целочисленный';
-$lang['ut_float'] = 'Дробный';
-$lang['ut_double'] = 'Дробный'; // can be the same as float
-$lang['ut_string'] = 'Строка';
-$lang['ut_array'] = 'Массив';
-$lang['ut_object'] = 'Объект';
-$lang['ut_resource'] = 'Ресурс';
+$lang['ut_test_name'] = 'Ð˜Ð¼Ñ Ñ‚ÐµÑÑ‚Ð°';
+$lang['ut_test_datatype'] = 'Ð¢ÐµÑÑ‚Ð¾Ð²Ñ‹Ð¹ Ñ‚Ð¸Ð¿ Ð´Ð°Ð½Ð½Ñ‹Ñ…';
+$lang['ut_res_datatype'] = 'ÐžÐ¶Ð¸Ð´Ð°ÐµÐ¼Ñ‹Ð¹ Ñ‚Ð¸Ð¿ Ð´Ð°Ð½Ð½Ñ‹Ñ…';
+$lang['ut_result'] = 'Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚';
+$lang['ut_undefined'] = 'ÐÐµÐ¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð½Ð¾Ðµ Ð¸Ð¼Ñ Ñ‚ÐµÑÑ‚Ð°';
+$lang['ut_file'] = 'Ð˜Ð¼Ñ Ñ„Ð°Ð¹Ð»Ð°';
+$lang['ut_line'] = 'ÐÐ¾Ð¼ÐµÑ€ ÑÑ‚Ñ€Ð¾ÐºÐ¸';
+$lang['ut_passed'] = 'ÐŸÑ€Ð¾Ð¹Ð´ÐµÐ½Ð½Ñ‹Ð¹';
+$lang['ut_failed'] = 'ÐÐµÑƒÐ´Ð°Ñ‡Ð½Ñ‹Ð¹';
+$lang['ut_boolean'] = 'Ð›Ð¾Ð³Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹';
+$lang['ut_integer'] = 'Ð¦ÐµÐ»Ð¾Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ‹Ð¹';
+$lang['ut_float'] = 'Ð”Ñ€Ð¾Ð±Ð½Ñ‹Ð¹';
+$lang['ut_double'] = 'Ð”Ñ€Ð¾Ð±Ð½Ñ‹Ð¹'; // can be the same as float
+$lang['ut_string'] = 'Ð¡Ñ‚Ñ€Ð¾ÐºÐ°';
+$lang['ut_array'] = 'ÐœÐ°ÑÑÐ¸Ð²';
+$lang['ut_object'] = 'ÐžÐ±ÑŠÐµÐºÑ‚';
+$lang['ut_resource'] = 'Ð ÐµÑÑƒÑ€Ñ';
 $lang['ut_null'] = 'Null';
-$lang['ut_notes'] = 'Примечания';
+$lang['ut_notes'] = 'ÐŸÑ€Ð¸Ð¼ÐµÑ‡Ð°Ð½Ð¸Ñ';

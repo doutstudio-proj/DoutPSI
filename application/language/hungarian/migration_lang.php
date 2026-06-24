@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'Nem találhatóak migrációk.';
-$lang['migration_not_found'] = 'A megadott verziószámú migráció nem található: %s.';
-$lang['migration_sequence_gap'] = 'A migrációk verziószámainak sorrendjében kihagyás található, a következő verziónál: %s.';
-$lang['migration_multiple_version'] = 'Különöböző migrációk egyező verziószámmal: %s.';
-$lang['migration_class_doesnt_exist'] = 'A(z) "%s" migrációs osztály nem található.';
-$lang['migration_missing_up_method'] = 'A(z) "%s" migrációs osztály "up" metódusa nem található.';
-$lang['migration_missing_down_method'] = 'A(z) "%s" migrációs osztály "down" metódusa nem található.';
-$lang['migration_invalid_filename'] = 'A(z) "%s" migráció hibás fájlnévvel rendelkezik.';
+$lang['migration_none_found'] = 'Nem talÃ¡lhatÃ³ak migrÃ¡ciÃ³k.';
+$lang['migration_not_found'] = 'A megadott verziÃ³szÃ¡mÃº migrÃ¡ciÃ³ nem talÃ¡lhatÃ³: %s.';
+$lang['migration_sequence_gap'] = 'A migrÃ¡ciÃ³k verziÃ³szÃ¡mainak sorrendjÃ©ben kihagyÃ¡s talÃ¡lhatÃ³, a kÃ¶vetkezÅ‘ verziÃ³nÃ¡l: %s.';
+$lang['migration_multiple_version'] = 'KÃ¼lÃ¶nÃ¶bÃ¶zÅ‘ migrÃ¡ciÃ³k egyezÅ‘ verziÃ³szÃ¡mmal: %s.';
+$lang['migration_class_doesnt_exist'] = 'A(z) "%s" migrÃ¡ciÃ³s osztÃ¡ly nem talÃ¡lhatÃ³.';
+$lang['migration_missing_up_method'] = 'A(z) "%s" migrÃ¡ciÃ³s osztÃ¡ly "up" metÃ³dusa nem talÃ¡lhatÃ³.';
+$lang['migration_missing_down_method'] = 'A(z) "%s" migrÃ¡ciÃ³s osztÃ¡ly "down" metÃ³dusa nem talÃ¡lhatÃ³.';
+$lang['migration_invalid_filename'] = 'A(z) "%s" migrÃ¡ciÃ³ hibÃ¡s fÃ¡jlnÃ©vvel rendelkezik.';

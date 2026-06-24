@@ -37,8 +37,8 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['terabyte_abbr'] = 'تيرابايت';
-$lang['gigabyte_abbr'] = 'جيجابايت';
-$lang['megabyte_abbr'] = 'ميجابايت';
-$lang['kilobyte_abbr'] = 'كيلوبايت';
-$lang['bytes'] = 'بايت';
+$lang['terabyte_abbr'] = 'ØªÙŠØ±Ø§Ø¨Ø§ÙŠØª';
+$lang['gigabyte_abbr'] = 'Ø¬ÙŠØ¬Ø§Ø¨Ø§ÙŠØª';
+$lang['megabyte_abbr'] = 'Ù…ÙŠØ¬Ø§Ø¨Ø§ÙŠØª';
+$lang['kilobyte_abbr'] = 'ÙƒÙŠÙ„ÙˆØ¨Ø§ÙŠØª';
+$lang['bytes'] = 'Ø¨Ø§ÙŠØª';

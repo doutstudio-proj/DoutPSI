@@ -35,12 +35,12 @@
  * @since    Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
+defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
 
-$lang['date_year'] = 'År';
-$lang['date_years'] = 'År';
-$lang['date_month'] = 'Månad';
-$lang['date_months'] = 'Månader';
+$lang['date_year'] = 'Ã…r';
+$lang['date_years'] = 'Ã…r';
+$lang['date_month'] = 'MÃ¥nad';
+$lang['date_months'] = 'MÃ¥nader';
 $lang['date_week'] = 'Vecka';
 $lang['date_weeks'] = 'Veckor';
 $lang['date_day'] = 'Dag';

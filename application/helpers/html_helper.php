@@ -1,4 +1,4 @@
-﻿<?php defined('BASEPATH') or exit('No direct script access allowed');
+<?php defined('BASEPATH') or exit('No direct script access allowed');
 
 /* ----------------------------------------------------------------------------
  * DoutPsi - Online Appointment Scheduler
@@ -188,6 +188,7 @@ if (!function_exists('pure_html')) {
     function pure_html(string $markup): string
     {
         $config = HTMLPurifier_Config::createDefault();
+        $config->set('Cache.SerializerPath', APPPATH . '../storage/cache');
 
         $purifier = new HTMLPurifier($config);
 

@@ -37,15 +37,15 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'Nuk mund të gjendet një ID lidhjeje e vlefshme. Ju lutemi sigurohuni që jeni lidhur përpara se të kryeni ndonjë rutinë skedari.';
-$lang['ftp_unable_to_connect'] = 'Nuk mund të lidheni me serverin tuaj FTP duke përdorur emrin e hostit të dhënë.';
-$lang['ftp_unable_to_login'] = 'Nuk mund të hyni në serverin tuaj FTP. Ju lutemi kontrolloni emrin e përdoruesit dhe fjalëkalimin tuaj.';
-$lang['ftp_unable_to_mkdir'] = 'Nuk mund të krijoni dosjen e specifikuar.';
-$lang['ftp_unable_to_changedir'] = 'Nuk mund të ndryshoni dosjet.';
-$lang['ftp_unable_to_chmod'] = 'Nuk mund të caktohen lejet e skedarëve. Ju lutemi kontrolloni shtegun tuaj.';
-$lang['ftp_unable_to_upload'] = 'Nuk mund të ngarkohet skedari i specifikuar. Ju lutemi kontrolloni shtegun tuaj.';
-$lang['ftp_unable_to_download'] = 'Nuk mund të shkarkohet skedari i specifikuar. Ju lutemi kontrolloni shtegun tuaj.';
-$lang['ftp_no_source_file'] = 'Nuk mund të gjendet skedari burim. Ju lutemi kontrolloni shtegun tuaj.';
-$lang['ftp_unable_to_rename'] = 'Nuk mund të ndryshohet emri i skedarit.';
-$lang['ftp_unable_to_delete'] = 'Nuk mund të fshihet skedari.';
-$lang['ftp_unable_to_move'] = 'Nuk mund të zhvendoset skedari. Ju lutemi sigurohuni që dosja e destinacionit ekziston.';
+$lang['ftp_no_connection'] = 'Nuk mund tÃ« gjendet njÃ« ID lidhjeje e vlefshme. Ju lutemi sigurohuni qÃ« jeni lidhur pÃ«rpara se tÃ« kryeni ndonjÃ« rutinÃ« skedari.';
+$lang['ftp_unable_to_connect'] = 'Nuk mund tÃ« lidheni me serverin tuaj FTP duke pÃ«rdorur emrin e hostit tÃ« dhÃ«nÃ«.';
+$lang['ftp_unable_to_login'] = 'Nuk mund tÃ« hyni nÃ« serverin tuaj FTP. Ju lutemi kontrolloni emrin e pÃ«rdoruesit dhe fjalÃ«kalimin tuaj.';
+$lang['ftp_unable_to_mkdir'] = 'Nuk mund tÃ« krijoni dosjen e specifikuar.';
+$lang['ftp_unable_to_changedir'] = 'Nuk mund tÃ« ndryshoni dosjet.';
+$lang['ftp_unable_to_chmod'] = 'Nuk mund tÃ« caktohen lejet e skedarÃ«ve. Ju lutemi kontrolloni shtegun tuaj.';
+$lang['ftp_unable_to_upload'] = 'Nuk mund tÃ« ngarkohet skedari i specifikuar. Ju lutemi kontrolloni shtegun tuaj.';
+$lang['ftp_unable_to_download'] = 'Nuk mund tÃ« shkarkohet skedari i specifikuar. Ju lutemi kontrolloni shtegun tuaj.';
+$lang['ftp_no_source_file'] = 'Nuk mund tÃ« gjendet skedari burim. Ju lutemi kontrolloni shtegun tuaj.';
+$lang['ftp_unable_to_rename'] = 'Nuk mund tÃ« ndryshohet emri i skedarit.';
+$lang['ftp_unable_to_delete'] = 'Nuk mund tÃ« fshihet skedari.';
+$lang['ftp_unable_to_move'] = 'Nuk mund tÃ« zhvendoset skedari. Ju lutemi sigurohuni qÃ« dosja e destinacionit ekziston.';

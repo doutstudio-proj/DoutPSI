@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'Nenhuma migração foi encontrada.';
-$lang['migration_not_found'] = 'Nenhuma migração foi encontrada com o número da versão: %s.';
-$lang['migration_sequence_gap'] = 'Na sequência de migração Gap o próximo número da versão não existe.: %s.';
-$lang['migration_multiple_version'] = 'Esta são as múltiplas migrações com o mesmo número de versão: %s.';
-$lang['migration_class_doesnt_exist'] = 'A classe de migração "%s" não pode ser encontrada.';
-$lang['migration_missing_up_method'] = 'A classe de migração "%s" está faltando o método "up".';
-$lang['migration_missing_down_method'] = 'A classe de migração "%s" está faltando o método "down".';
-$lang['migration_invalid_filename'] = 'A migração "%s" tem nome de arquivo inválido.';
+$lang['migration_none_found'] = 'Nenhuma migraÃ§Ã£o foi encontrada.';
+$lang['migration_not_found'] = 'Nenhuma migraÃ§Ã£o foi encontrada com o nÃºmero da versÃ£o: %s.';
+$lang['migration_sequence_gap'] = 'Na sequÃªncia de migraÃ§Ã£o Gap o prÃ³ximo nÃºmero da versÃ£o nÃ£o existe.: %s.';
+$lang['migration_multiple_version'] = 'Esta sÃ£o as mÃºltiplas migraÃ§Ãµes com o mesmo nÃºmero de versÃ£o: %s.';
+$lang['migration_class_doesnt_exist'] = 'A classe de migraÃ§Ã£o "%s" nÃ£o pode ser encontrada.';
+$lang['migration_missing_up_method'] = 'A classe de migraÃ§Ã£o "%s" estÃ¡ faltando o mÃ©todo "up".';
+$lang['migration_missing_down_method'] = 'A classe de migraÃ§Ã£o "%s" estÃ¡ faltando o mÃ©todo "down".';
+$lang['migration_invalid_filename'] = 'A migraÃ§Ã£o "%s" tem nome de arquivo invÃ¡lido.';
