@@ -1,0 +1,39 @@
+﻿/* ----------------------------------------------------------------------------
+ * DoutPsi - Online Appointment Scheduler
+ *
+ * @package     DoutPsi
+ * @author      A.Tselegidis <contato@doutpsi.com.br>
+ * @copyright   Copyright (c) Alex Tselegidis
+ * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
+ * @link        https://DoutPsi.org
+ * @since       v1.5.0
+ * ---------------------------------------------------------------------------- */
+
+/**
+ * Google Calendar Settings HTTP client.
+ *
+ * This module implements the Google Calendar Settings related HTTP requests.
+ */
+App.Http.GoogleCalendarSettings = (function () {
+    /**
+     * Save Google Calendar settings.
+     *
+     * @param {Array} googleCalendarSettings
+     *
+     * @return {*|jQuery}
+     */
+    function save(googleCalendarSettings) {
+        const url = App.Utils.Url.siteUrl('google_calendar_settings/save');
+
+        const data = {
+            csrf_token: vars('csrf_token'),
+            google_calendar_settings: googleCalendarSettings,
+        };
+
+        return $.post(url, data);
+    }
+
+    return {
+        save,
+    };
+})();
