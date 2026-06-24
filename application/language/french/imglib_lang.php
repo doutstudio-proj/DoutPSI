@@ -37,21 +37,21 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['imglib_source_image_required'] = 'Vous devez spÃ©cifier une image source dans vos prÃ©fÃ©rences.';
-$lang['imglib_gd_required'] = 'La bibliothÃ¨que dâ€™images GD est requise pour cette fonctionnalitÃ©.';
-$lang['imglib_gd_required_for_props'] = 'Votre serveur doit prendre en charge la bibliothÃ¨que dâ€™images GD afin de dÃ©terminer les propriÃ©tÃ©s de lâ€™image.';
-$lang['imglib_unsupported_imagecreate'] = 'Votre serveur ne prend pas en charge la fonction GD requise pour traiter ce type dâ€™image.';
-$lang['imglib_gif_not_supported'] = 'Les images GIF ne sont souvent pas prises en charge en raison de restrictions de licence. Vous devrez peut-Ãªtre utiliser des images JPG ou PNG Ã  la place.';
+$lang['imglib_source_image_required'] = 'Vous devez spécifier une image source dans vos préférences.';
+$lang['imglib_gd_required'] = 'La bibliothèque d’images GD est requise pour cette fonctionnalité.';
+$lang['imglib_gd_required_for_props'] = 'Votre serveur doit prendre en charge la bibliothèque d’images GD afin de déterminer les propriétés de l’image.';
+$lang['imglib_unsupported_imagecreate'] = 'Votre serveur ne prend pas en charge la fonction GD requise pour traiter ce type d’image.';
+$lang['imglib_gif_not_supported'] = 'Les images GIF ne sont souvent pas prises en charge en raison de restrictions de licence. Vous devrez peut-être utiliser des images JPG ou PNG à la place.';
 $lang['imglib_jpg_not_supported'] = 'Les images JPG ne sont pas prises en charge.';
 $lang['imglib_png_not_supported'] = 'Les images PNG ne sont pas prises en charge.';
-$lang['imglib_jpg_or_png_required'] = 'Le protocole de redimensionnement dâ€™image spÃ©cifiÃ© dans vos prÃ©fÃ©rences ne fonctionne quâ€™avec les types dâ€™images JPEG ou PNG.';
-$lang['imglib_copy_error'] = 'Une erreur sâ€™est produite lors de la tentative de remplacement du fichier. Assurez-vous que votre rÃ©pertoire de fichiers est accessible en Ã©criture.';
-$lang['imglib_rotate_unsupported'] = 'La rotation des images ne semble pas Ãªtre prise en charge par votre serveur.';
-$lang['imglib_libpath_invalid'] = 'Le chemin dâ€™accÃ¨s Ã  votre bibliothÃ¨que dâ€™images nâ€™est pas correct. Veuillez dÃ©finir le chemin correct dans vos prÃ©fÃ©rences dâ€™image.';
-$lang['imglib_image_process_failed'] = 'Echec du traitement de lâ€™image. Veuillez vÃ©rifier que votre serveur prend en charge le protocole choisi et que le chemin dâ€™accÃ¨s Ã  votre bibliothÃ¨que dâ€™images est correct.';
-$lang['imglib_rotation_angle_required'] = 'Un angle de rotation est nÃ©cessaire pour faire pivoter lâ€™image.';
-$lang['imglib_invalid_path'] = 'Le chemin dâ€™accÃ¨s Ã  lâ€™image nâ€™est pas correct.';
-$lang['imglib_invalid_image'] = 'Lâ€™image fournie nâ€™est pas valide.';
-$lang['imglib_copy_failed'] = 'La routine de copie dâ€™image a Ã©chouÃ©.';
-$lang['imglib_missing_font'] = 'Impossible de trouver une police Ã  utiliser.';
-$lang['imglib_save_failed'] = 'Impossible dâ€™enregistrer lâ€™image. Assurez-vous que lâ€™image et le rÃ©pertoire de fichiers sont accessibles en Ã©criture.';
+$lang['imglib_jpg_or_png_required'] = 'Le protocole de redimensionnement d’image spécifié dans vos préférences ne fonctionne qu’avec les types d’images JPEG ou PNG.';
+$lang['imglib_copy_error'] = 'Une erreur s’est produite lors de la tentative de remplacement du fichier. Assurez-vous que votre répertoire de fichiers est accessible en écriture.';
+$lang['imglib_rotate_unsupported'] = 'La rotation des images ne semble pas être prise en charge par votre serveur.';
+$lang['imglib_libpath_invalid'] = 'Le chemin d’accès à votre bibliothèque d’images n’est pas correct. Veuillez définir le chemin correct dans vos préférences d’image.';
+$lang['imglib_image_process_failed'] = 'Echec du traitement de l’image. Veuillez vérifier que votre serveur prend en charge le protocole choisi et que le chemin d’accès à votre bibliothèque d’images est correct.';
+$lang['imglib_rotation_angle_required'] = 'Un angle de rotation est nécessaire pour faire pivoter l’image.';
+$lang['imglib_invalid_path'] = 'Le chemin d’accès à l’image n’est pas correct.';
+$lang['imglib_invalid_image'] = 'L’image fournie n’est pas valide.';
+$lang['imglib_copy_failed'] = 'La routine de copie d’image a échoué.';
+$lang['imglib_missing_font'] = 'Impossible de trouver une police à utiliser.';
+$lang['imglib_save_failed'] = 'Impossible d’enregistrer l’image. Assurez-vous que l’image et le répertoire de fichiers sont accessibles en écriture.';

@@ -37,15 +37,15 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'ç„¡æ³•æ‰¾åˆ°æœ‰æ•ˆçš„é€£ç·š IDã€‚è«‹ç¢ºä¿æ‚¨å·²é€£ç·šå¾Œå†åŸ·è¡Œä»»ä½•æª”æ¡ˆä½œæ¥­ã€‚';
-$lang['ftp_unable_to_connect'] = 'ç„¡æ³•ä½¿ç”¨æä¾›çš„ä¸»æ©Ÿåç¨±é€£ç·šåˆ°æ‚¨çš„ FTP ä¼ºæœå™¨ã€‚';
-$lang['ftp_unable_to_login'] = 'ç„¡æ³•ç™»å…¥æ‚¨çš„ FTP ä¼ºæœå™¨ã€‚è«‹æª¢æŸ¥æ‚¨çš„ä½¿ç”¨è€…åç¨±å’Œå¯†ç¢¼ã€‚';
-$lang['ftp_unable_to_mkdir'] = 'ç„¡æ³•å»ºç«‹æ‚¨æŒ‡å®šçš„ç›®éŒ„ã€‚';
-$lang['ftp_unable_to_changedir'] = 'ç„¡æ³•åˆ‡æ›ç›®éŒ„ã€‚';
-$lang['ftp_unable_to_chmod'] = 'ç„¡æ³•è¨­å®šæª”æ¡ˆæ¬Šé™ã€‚è«‹æª¢æŸ¥æ‚¨çš„è·¯å¾‘ã€‚';
-$lang['ftp_unable_to_upload'] = 'ç„¡æ³•ä¸Šå‚³æŒ‡å®šçš„æª”æ¡ˆã€‚è«‹æª¢æŸ¥æ‚¨çš„è·¯å¾‘ã€‚';
-$lang['ftp_unable_to_download'] = 'ç„¡æ³•ä¸‹è¼‰æŒ‡å®šçš„æª”æ¡ˆã€‚è«‹æª¢æŸ¥æ‚¨çš„è·¯å¾‘ã€‚';
-$lang['ftp_no_source_file'] = 'ç„¡æ³•æ‰¾åˆ°ä¾†æºæª”æ¡ˆã€‚è«‹æª¢æŸ¥æ‚¨çš„è·¯å¾‘ã€‚';
-$lang['ftp_unable_to_rename'] = 'ç„¡æ³•é‡æ–°å‘½åæª”æ¡ˆã€‚';
-$lang['ftp_unable_to_delete'] = 'ç„¡æ³•åˆªé™¤æª”æ¡ˆã€‚';
-$lang['ftp_unable_to_move'] = 'ç„¡æ³•ç§»å‹•æª”æ¡ˆã€‚è«‹ç¢ºä¿ç›®çš„åœ°ç›®éŒ„å­˜åœ¨ã€‚';
+$lang['ftp_no_connection'] = '無法找到有效的連線 ID。請確保您已連線後再執行任何檔案作業。';
+$lang['ftp_unable_to_connect'] = '無法使用提供的主機名稱連線到您的 FTP 伺服器。';
+$lang['ftp_unable_to_login'] = '無法登入您的 FTP 伺服器。請檢查您的使用者名稱和密碼。';
+$lang['ftp_unable_to_mkdir'] = '無法建立您指定的目錄。';
+$lang['ftp_unable_to_changedir'] = '無法切換目錄。';
+$lang['ftp_unable_to_chmod'] = '無法設定檔案權限。請檢查您的路徑。';
+$lang['ftp_unable_to_upload'] = '無法上傳指定的檔案。請檢查您的路徑。';
+$lang['ftp_unable_to_download'] = '無法下載指定的檔案。請檢查您的路徑。';
+$lang['ftp_no_source_file'] = '無法找到來源檔案。請檢查您的路徑。';
+$lang['ftp_unable_to_rename'] = '無法重新命名檔案。';
+$lang['ftp_unable_to_delete'] = '無法刪除檔案。';
+$lang['ftp_unable_to_move'] = '無法移動檔案。請確保目的地目錄存在。';

@@ -37,22 +37,22 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['email_must_be_array'] = 'SÃ¤hkÃ¶postin validointimetodi tulee antaa taulukkona.';
-$lang['email_invalid_address'] = 'Virheellinen sÃ¤hkÃ¶postiosoite: %s';
-$lang['email_attachment_missing'] = 'TÃ¤tÃ¤ sÃ¤hkÃ¶postiliitettÃ¤ ei paikannettu: %s';
-$lang['email_attachment_unreadable'] = 'TÃ¤tÃ¤ sÃ¤hkÃ¶postiliitettÃ¤ ei voitu avata: %s';
-$lang['email_no_from'] = 'Ei voi lÃ¤hettÃ¤Ã¤ sÃ¤hkÃ¶postia ilman "From" tunnistetta.';
-$lang['email_no_recipients'] = 'Sinun on lisÃ¤ttÃ¤vÃ¤ vastaanottajat: To, Cc, tai Bcc';
-$lang['email_send_failure_phpmail'] = 'Ei voitu lÃ¤hettÃ¤Ã¤ sÃ¤hkÃ¶postia kÃ¤yttÃ¤en PHP mail() -komentoa. Palvelinta ei ehkÃ¤ ole mÃ¤Ã¤ritelty kÃ¤yttÃ¤mÃ¤Ã¤n sitÃ¤.';
-$lang['email_send_failure_sendmail'] = 'Ei voitu lÃ¤hettÃ¤Ã¤ sÃ¤hkÃ¶postia kÃ¤yttÃ¤en PHP Sendmail -komentoa. Palvelinta ei ehkÃ¤ ole mÃ¤Ã¤ritelty kÃ¤yttÃ¤mÃ¤Ã¤n sitÃ¤.';
-$lang['email_send_failure_smtp'] = 'Ei voitu lÃ¤hettÃ¤Ã¤ sÃ¤hkÃ¶postia kÃ¤yttÃ¤en PHP SMTP -ominaisuutta. Palvelinta ei ehkÃ¤ ole mÃ¤Ã¤ritelty kÃ¤yttÃ¤mÃ¤Ã¤n sitÃ¤.';
-$lang['email_sent'] = 'Viestisi on lÃ¤hetetty kÃ¤yttÃ¤en protokollaa %s';
+$lang['email_must_be_array'] = 'Sähköpostin validointimetodi tulee antaa taulukkona.';
+$lang['email_invalid_address'] = 'Virheellinen sähköpostiosoite: %s';
+$lang['email_attachment_missing'] = 'Tätä sähköpostiliitettä ei paikannettu: %s';
+$lang['email_attachment_unreadable'] = 'Tätä sähköpostiliitettä ei voitu avata: %s';
+$lang['email_no_from'] = 'Ei voi lähettää sähköpostia ilman "From" tunnistetta.';
+$lang['email_no_recipients'] = 'Sinun on lisättävä vastaanottajat: To, Cc, tai Bcc';
+$lang['email_send_failure_phpmail'] = 'Ei voitu lähettää sähköpostia käyttäen PHP mail() -komentoa. Palvelinta ei ehkä ole määritelty käyttämään sitä.';
+$lang['email_send_failure_sendmail'] = 'Ei voitu lähettää sähköpostia käyttäen PHP Sendmail -komentoa. Palvelinta ei ehkä ole määritelty käyttämään sitä.';
+$lang['email_send_failure_smtp'] = 'Ei voitu lähettää sähköpostia käyttäen PHP SMTP -ominaisuutta. Palvelinta ei ehkä ole määritelty käyttämään sitä.';
+$lang['email_sent'] = 'Viestisi on lähetetty käyttäen protokollaa %s';
 $lang['email_no_socket'] = 'Ei voitu avata socketia Sendmailille. Tarkista asetukset.';
-$lang['email_no_hostname'] = 'Et ole mÃ¤Ã¤rittÃ¤nyt SMTP -palvelinta.';
+$lang['email_no_hostname'] = 'Et ole määrittänyt SMTP -palvelinta.';
 $lang['email_smtp_error'] = 'SMTP virhe tapahtui: %s';
-$lang['email_no_smtp_unpw'] = 'Virhe: SMTP kÃ¤yttÃ¤jÃ¤nimi ja sanasana on mÃ¤Ã¤ritettÃ¤vÃ¤.';
-$lang['email_failed_smtp_login'] = 'Ei voitu lÃ¤hettÃ¤Ã¤ AUTH LOGIN komentoa. Virhe: %s';
-$lang['email_smtp_auth_un'] = 'Ei voitu autentikoida kÃ¤yttÃ¤jÃ¤nimeÃ¤. Virhe: %s';
+$lang['email_no_smtp_unpw'] = 'Virhe: SMTP käyttäjänimi ja sanasana on määritettävä.';
+$lang['email_failed_smtp_login'] = 'Ei voitu lähettää AUTH LOGIN komentoa. Virhe: %s';
+$lang['email_smtp_auth_un'] = 'Ei voitu autentikoida käyttäjänimeä. Virhe: %s';
 $lang['email_smtp_auth_pw'] = 'Ei voitu autentikoida salasanaa. Virhe: %s';
-$lang['email_smtp_data_failure'] = 'Ei voitu lÃ¤hettÃ¤Ã¤ dataa: %s';
+$lang['email_smtp_data_failure'] = 'Ei voitu lähettää dataa: %s';
 $lang['email_exit_status'] = 'Paluukoodi: %s';

@@ -37,19 +37,19 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'userfile POST -arvoa ei lÃ¶ytynyt.';
-$lang['upload_file_exceeds_limit'] = 'Ladatun tiedoston koko ylittÃ¤Ã¤ PHP-asetuksissa mÃ¤Ã¤ritellyn rajan.';
-$lang['upload_file_exceeds_form_limit'] = 'Ladatun tiedoston koko ylittÃ¤Ã¤ lomakkeelle mÃ¤Ã¤ritellyn rajan.';
+$lang['upload_userfile_not_set'] = 'userfile POST -arvoa ei löytynyt.';
+$lang['upload_file_exceeds_limit'] = 'Ladatun tiedoston koko ylittää PHP-asetuksissa määritellyn rajan.';
+$lang['upload_file_exceeds_form_limit'] = 'Ladatun tiedoston koko ylittää lomakkeelle määritellyn rajan.';
 $lang['upload_file_partial'] = 'Tiedosto ladattiin vain osittain.';
-$lang['upload_no_temp_directory'] = 'VÃ¤liaikaistiedostojen kansio puuttuu.';
+$lang['upload_no_temp_directory'] = 'Väliaikaistiedostojen kansio puuttuu.';
 $lang['upload_unable_to_write_file'] = 'Tiedostoa ei voitu kirjoittaa levylle.';
 $lang['upload_stopped_by_extension'] = 'Laajennus keskeytti tiedoston latauksen.';
 $lang['upload_no_file_selected'] = 'Et valinnut tiedostoa ladattavaksi palvelimelle.';
 $lang['upload_invalid_filetype'] = 'Ladattavaksi aiotun tiedoston tyyppi ei ole sallittu.';
 $lang['upload_invalid_filesize'] = 'Ladattavan tiedoston koko on sallittua suurempi.';
-$lang['upload_invalid_dimensions'] = 'Ladattavan tiedoston mittasuhteet eivÃ¤t ole sallituissa rajoissa.';
-$lang['upload_destination_error'] = 'Ilmeni ongelma siirrettÃ¤essÃ¤ ladattua tiedostoa lopulliseen sijaintiin.';
-$lang['upload_no_filepath'] = 'Tiedostojen latauspolku vaikuttaa virheelliseltÃ¤.';
-$lang['upload_no_file_types'] = 'Et ole mÃ¤Ã¤rittÃ¤nyt sallittuja tiedostotyyppejÃ¤.';
-$lang['upload_bad_filename'] = 'LÃ¤hettÃ¤mÃ¤si tiedosto on jo palvelimella.';
-$lang['upload_not_writable'] = 'Tiedostojen tallennuskansio ei nÃ¤ytÃ¤ olevan kirjoitettavissa.';
+$lang['upload_invalid_dimensions'] = 'Ladattavan tiedoston mittasuhteet eivät ole sallituissa rajoissa.';
+$lang['upload_destination_error'] = 'Ilmeni ongelma siirrettäessä ladattua tiedostoa lopulliseen sijaintiin.';
+$lang['upload_no_filepath'] = 'Tiedostojen latauspolku vaikuttaa virheelliseltä.';
+$lang['upload_no_file_types'] = 'Et ole määrittänyt sallittuja tiedostotyyppejä.';
+$lang['upload_bad_filename'] = 'Lähettämäsi tiedosto on jo palvelimella.';
+$lang['upload_not_writable'] = 'Tiedostojen tallennuskansio ei näytä olevan kirjoitettavissa.';

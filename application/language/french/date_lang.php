@@ -37,8 +37,8 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['date_year'] = 'AnnÃ©e';
-$lang['date_years'] = 'AnnÃ©es';
+$lang['date_year'] = 'Année';
+$lang['date_years'] = 'Années';
 $lang['date_month'] = 'Mois';
 $lang['date_months'] = 'Mois';
 $lang['date_week'] = 'Semaine';

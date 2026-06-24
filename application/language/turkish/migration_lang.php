@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'Herhangi bir taÅŸÄ±nma bulunamadÄ±.';
-$lang['migration_not_found'] = 'Belirtilen sÃ¼rÃ¼m numaralÄ± taÅŸÄ±nma bulunamadÄ±: %s.';
-$lang['migration_sequence_gap'] = 'Åžu sÃ¼rÃ¼m numarasÄ±na yakÄ±n taÅŸÄ±nma sÄ±ralamasÄ±nda bir boÅŸluk var: %s.';
-$lang['migration_multiple_version'] = 'AynÄ± sÃ¼rÃ¼m numaralÄ± birden Ã§ok taÅŸÄ±nma var: %s.';
-$lang['migration_class_doesnt_exist'] = 'TaÅŸÄ±nma sÄ±nÄ±fÄ± "%s" bulunamadÄ±.';
-$lang['migration_missing_up_method'] = '"%s" taÅŸÄ±nma sÄ±nÄ±fÄ±nda "up" metodu eksik.';
-$lang['migration_missing_down_method'] = '"%s" taÅŸÄ±nma sÄ±nÄ±fÄ±nda "down" metodu eksik.';
-$lang['migration_invalid_filename'] = '"%s" taÅŸÄ±nmasÄ±nda geÃ§ersiz dosya adÄ±.';
+$lang['migration_none_found'] = 'Herhangi bir taşınma bulunamadı.';
+$lang['migration_not_found'] = 'Belirtilen sürüm numaralı taşınma bulunamadı: %s.';
+$lang['migration_sequence_gap'] = 'Şu sürüm numarasına yakın taşınma sıralamasında bir boşluk var: %s.';
+$lang['migration_multiple_version'] = 'Aynı sürüm numaralı birden çok taşınma var: %s.';
+$lang['migration_class_doesnt_exist'] = 'Taşınma sınıfı "%s" bulunamadı.';
+$lang['migration_missing_up_method'] = '"%s" taşınma sınıfında "up" metodu eksik.';
+$lang['migration_missing_down_method'] = '"%s" taşınma sınıfında "down" metodu eksik.';
+$lang['migration_invalid_filename'] = '"%s" taşınmasında geçersiz dosya adı.';

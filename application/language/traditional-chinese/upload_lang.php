@@ -37,19 +37,19 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'ç„¡æ³•æ‰¾åˆ°åç‚º userfile çš„ POST è®Šæ•¸ã€‚';
-$lang['upload_file_exceeds_limit'] = 'ä¸Šå‚³çš„æª”æ¡ˆè¶…éŽäº† PHP è¨­å®šæª”ä¸­å…è¨±çš„æœ€å¤§å¤§å°ã€‚';
-$lang['upload_file_exceeds_form_limit'] = 'ä¸Šå‚³çš„æª”æ¡ˆè¶…éŽäº†æäº¤è¡¨å–®å…è¨±çš„æœ€å¤§å¤§å°ã€‚';
-$lang['upload_file_partial'] = 'æª”æ¡ˆåƒ…éƒ¨åˆ†ä¸Šå‚³ã€‚';
-$lang['upload_no_temp_directory'] = 'æ‰¾ä¸åˆ°æš«å­˜è³‡æ–™å¤¾ã€‚';
-$lang['upload_unable_to_write_file'] = 'ç„¡æ³•å°‡æª”æ¡ˆå¯«å…¥ç£ç¢Ÿã€‚';
-$lang['upload_stopped_by_extension'] = 'æª”æ¡ˆä¸Šå‚³è¢«æ“´å……åŠŸèƒ½é˜»æ­¢ã€‚';
-$lang['upload_no_file_selected'] = 'æ‚¨å°šæœªé¸æ“‡è¦ä¸Šå‚³çš„æª”æ¡ˆã€‚';
-$lang['upload_invalid_filetype'] = 'æ‚¨å˜—è©¦ä¸Šå‚³çš„æª”æ¡ˆé¡žåž‹ä¸è¢«å…è¨±ã€‚';
-$lang['upload_invalid_filesize'] = 'æ‚¨å˜—è©¦ä¸Šå‚³çš„æª”æ¡ˆå¤§å°è¶…éŽå…è¨±ç¯„åœã€‚';
-$lang['upload_invalid_dimensions'] = 'æ‚¨å˜—è©¦ä¸Šå‚³çš„åœ–ç‰‡å°ºå¯¸ä¸ç¬¦åˆå…è¨±çš„ç¯„åœã€‚';
-$lang['upload_destination_error'] = 'å˜—è©¦å°‡ä¸Šå‚³çš„æª”æ¡ˆç§»å‹•åˆ°æœ€çµ‚ç›®çš„åœ°æ™‚ç™¼ç”Ÿå•é¡Œã€‚';
-$lang['upload_no_filepath'] = 'ä¸Šå‚³è·¯å¾‘ä¼¼ä¹Žç„¡æ•ˆã€‚';
-$lang['upload_no_file_types'] = 'æ‚¨å°šæœªæŒ‡å®šä»»ä½•å…è¨±çš„æª”æ¡ˆé¡žåž‹ã€‚';
-$lang['upload_bad_filename'] = 'æ‚¨æäº¤çš„æª”æ¡ˆåç¨±å·²å­˜åœ¨æ–¼ä¼ºæœå™¨ä¸Šã€‚';
-$lang['upload_not_writable'] = 'ä¸Šå‚³ç›®çš„åœ°è³‡æ–™å¤¾ä¼¼ä¹Žç„¡æ³•å¯«å…¥ã€‚';
+$lang['upload_userfile_not_set'] = '無法找到名為 userfile 的 POST 變數。';
+$lang['upload_file_exceeds_limit'] = '上傳的檔案超過了 PHP 設定檔中允許的最大大小。';
+$lang['upload_file_exceeds_form_limit'] = '上傳的檔案超過了提交表單允許的最大大小。';
+$lang['upload_file_partial'] = '檔案僅部分上傳。';
+$lang['upload_no_temp_directory'] = '找不到暫存資料夾。';
+$lang['upload_unable_to_write_file'] = '無法將檔案寫入磁碟。';
+$lang['upload_stopped_by_extension'] = '檔案上傳被擴充功能阻止。';
+$lang['upload_no_file_selected'] = '您尚未選擇要上傳的檔案。';
+$lang['upload_invalid_filetype'] = '您嘗試上傳的檔案類型不被允許。';
+$lang['upload_invalid_filesize'] = '您嘗試上傳的檔案大小超過允許範圍。';
+$lang['upload_invalid_dimensions'] = '您嘗試上傳的圖片尺寸不符合允許的範圍。';
+$lang['upload_destination_error'] = '嘗試將上傳的檔案移動到最終目的地時發生問題。';
+$lang['upload_no_filepath'] = '上傳路徑似乎無效。';
+$lang['upload_no_file_types'] = '您尚未指定任何允許的檔案類型。';
+$lang['upload_bad_filename'] = '您提交的檔案名稱已存在於伺服器上。';
+$lang['upload_not_writable'] = '上傳目的地資料夾似乎無法寫入。';

@@ -37,19 +37,19 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['upload_userfile_not_set'] = 'Impossible de trouver une variable post appelÃ©e userfile.';
-$lang['upload_file_exceeds_limit'] = 'Le fichier tÃ©lÃ©versÃ© dÃ©passe la taille maximale autorisÃ©e dans votre fichier de configuration PHP.';
-$lang['upload_file_exceeds_form_limit'] = 'Le fichier tÃ©lÃ©versÃ© dÃ©passe la taille maximale autorisÃ©e par le formulaire de soumission.';
-$lang['upload_file_partial'] = 'Le fichier nâ€™a Ã©tÃ© que partiellement tÃ©lÃ©versÃ©.';
+$lang['upload_userfile_not_set'] = 'Impossible de trouver une variable post appelée userfile.';
+$lang['upload_file_exceeds_limit'] = 'Le fichier téléversé dépasse la taille maximale autorisée dans votre fichier de configuration PHP.';
+$lang['upload_file_exceeds_form_limit'] = 'Le fichier téléversé dépasse la taille maximale autorisée par le formulaire de soumission.';
+$lang['upload_file_partial'] = 'Le fichier n’a été que partiellement téléversé.';
 $lang['upload_no_temp_directory'] = 'Le dossier temporaire est manquant.';
-$lang['upload_unable_to_write_file'] = 'Le fichier nâ€™a pas pu Ãªtre Ã©crit sur le disque.';
-$lang['upload_stopped_by_extension'] = 'Le tÃ©lÃ©versement du fichier a Ã©tÃ© arrÃªtÃ© par extension.';
-$lang['upload_no_file_selected'] = 'Vous nâ€™avez pas sÃ©lectionnÃ© de fichier Ã  tÃ©lÃ©charger.';
-$lang['upload_invalid_filetype'] = 'Le type de fichier que vous tentez de tÃ©lÃ©charger nâ€™est pas autorisÃ©.';
-$lang['upload_invalid_filesize'] = 'Le fichier que vous tentez de tÃ©lÃ©charger est plus volumineux que la taille autorisÃ©e.';
-$lang['upload_invalid_dimensions'] = 'Lâ€™image que vous tentez de tÃ©lÃ©charger ne rentre pas dans les dimensions autorisÃ©es.';
-$lang['upload_destination_error'] = 'Un problÃ¨me sâ€™est produit lors de la tentative de dÃ©placement du fichier tÃ©lÃ©versÃ© vers la destination finale.';
-$lang['upload_no_filepath'] = 'Le chemin de tÃ©lÃ©versement ne semble pas valide.';
-$lang['upload_no_file_types'] = 'Vous nâ€™avez spÃ©cifiÃ© aucun type de fichier autorisÃ©.';
-$lang['upload_bad_filename'] = 'Le nom de fichier que vous avez envoyÃ© existe dÃ©jÃ  sur le serveur.';
-$lang['upload_not_writable'] = 'Le dossier de destination du tÃ©lÃ©versement ne semble pas Ãªtre accessible en Ã©criture.';
+$lang['upload_unable_to_write_file'] = 'Le fichier n’a pas pu être écrit sur le disque.';
+$lang['upload_stopped_by_extension'] = 'Le téléversement du fichier a été arrêté par extension.';
+$lang['upload_no_file_selected'] = 'Vous n’avez pas sélectionné de fichier à télécharger.';
+$lang['upload_invalid_filetype'] = 'Le type de fichier que vous tentez de télécharger n’est pas autorisé.';
+$lang['upload_invalid_filesize'] = 'Le fichier que vous tentez de télécharger est plus volumineux que la taille autorisée.';
+$lang['upload_invalid_dimensions'] = 'L’image que vous tentez de télécharger ne rentre pas dans les dimensions autorisées.';
+$lang['upload_destination_error'] = 'Un problème s’est produit lors de la tentative de déplacement du fichier téléversé vers la destination finale.';
+$lang['upload_no_filepath'] = 'Le chemin de téléversement ne semble pas valide.';
+$lang['upload_no_file_types'] = 'Vous n’avez spécifié aucun type de fichier autorisé.';
+$lang['upload_bad_filename'] = 'Le nom de fichier que vous avez envoyé existe déjà sur le serveur.';
+$lang['upload_not_writable'] = 'Le dossier de destination du téléversement ne semble pas être accessible en écriture.';

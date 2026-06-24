@@ -37,15 +37,15 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'Ei lÃ¶ydetty kelvollista yhteys-ID:tÃ¤. Varmista ettÃ¤ yhteys on muodostettu ennen tiedostotoimia.';
-$lang['ftp_unable_to_connect'] = 'MÃ¤Ã¤ritettyyn FTP-palvelimeen ei voitu yhdistÃ¤Ã¤.';
-$lang['ftp_unable_to_login'] = 'FTP-palvelimeen ei voitu kirjautua. Tarkista kÃ¤yttÃ¤jÃ¤tunnus ja salasana.';
+$lang['ftp_no_connection'] = 'Ei löydetty kelvollista yhteys-ID:tä. Varmista että yhteys on muodostettu ennen tiedostotoimia.';
+$lang['ftp_unable_to_connect'] = 'Määritettyyn FTP-palvelimeen ei voitu yhdistää.';
+$lang['ftp_unable_to_login'] = 'FTP-palvelimeen ei voitu kirjautua. Tarkista käyttäjätunnus ja salasana.';
 $lang['ftp_unable_to_mkdir'] = 'Kansiota ei voitu luoda.';
 $lang['ftp_unable_to_changedir'] = 'Kansiota ei voitu vaihtaa.';
-$lang['ftp_unable_to_chmod'] = 'TiedostomÃ¤Ã¤rityksiÃ¤ ei voitu asettaa. Tarkista polku.';
-$lang['ftp_unable_to_upload'] = 'Tiedostoa ei voitu lÃ¤hettÃ¤Ã¤ palvelimelle. Tarkista polku.';
+$lang['ftp_unable_to_chmod'] = 'Tiedostomäärityksiä ei voitu asettaa. Tarkista polku.';
+$lang['ftp_unable_to_upload'] = 'Tiedostoa ei voitu lähettää palvelimelle. Tarkista polku.';
 $lang['ftp_unable_to_download'] = 'Tiedostoa ei voitu ladata palvelimelta. Tarkista polku.';
-$lang['ftp_no_source_file'] = 'LÃ¤hdetiedostoa ei voitu paikantaa. Tarkista polku.';
-$lang['ftp_unable_to_rename'] = 'Tiedostoa ei voitu nimetÃ¤ uudelleen.';
+$lang['ftp_no_source_file'] = 'Lähdetiedostoa ei voitu paikantaa. Tarkista polku.';
+$lang['ftp_unable_to_rename'] = 'Tiedostoa ei voitu nimetä uudelleen.';
 $lang['ftp_unable_to_delete'] = 'Tiedostoa ei voitu poistaa.';
-$lang['ftp_unable_to_move'] = 'Tiedostoa ei voitu siirtÃ¤Ã¤. Varmista ettÃ¤ kohdekansio lÃ¶ytyy.';
+$lang['ftp_unable_to_move'] = 'Tiedostoa ei voitu siirtää. Varmista että kohdekansio löytyy.';

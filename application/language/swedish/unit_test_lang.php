@@ -35,11 +35,11 @@
  * @since    Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
+defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
 
 $lang['ut_test_name'] = 'Test-namn';
 $lang['ut_test_datatype'] = 'Test-datatyp';
-$lang['ut_res_datatype'] = 'FÃ¶rvÃ¤ntad datatyp';
+$lang['ut_res_datatype'] = 'Förväntad datatyp';
 $lang['ut_result'] = 'Resultat';
 $lang['ut_undefined'] = 'Odefinerat test-namn';
 $lang['ut_file'] = 'Filnamn';
@@ -50,7 +50,7 @@ $lang['ut_boolean'] = 'Booleskt';
 $lang['ut_integer'] = 'Heltal';
 $lang['ut_float'] = 'Decimaltal';
 $lang['ut_double'] = 'Decimaltal'; // can be the same as float
-$lang['ut_string'] = 'StrÃ¤ng';
+$lang['ut_string'] = 'Sträng';
 $lang['ut_array'] = 'Array';
 $lang['ut_object'] = 'Objekt';
 $lang['ut_resource'] = 'Resurs';

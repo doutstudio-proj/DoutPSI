@@ -37,9 +37,9 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['ftp_no_connection'] = 'Kunne ikke finne en gyldig tilkoblings-ID. Kontroller at du er tilkoblet fÃ¸r du utfÃ¸rer noen filrutiner.';
+$lang['ftp_no_connection'] = 'Kunne ikke finne en gyldig tilkoblings-ID. Kontroller at du er tilkoblet før du utfører noen filrutiner.';
 $lang['ftp_unable_to_connect'] = 'Kunne ikke koble til FTP-serveren din ved hjelp av det angitte vertsnavnet.';
-$lang['ftp_unable_to_login'] = 'Kunne ikke logge pÃ¥ FTP-serveren. Vennligst sjekk brukernavnet og passordet ditt.';
+$lang['ftp_unable_to_login'] = 'Kunne ikke logge på FTP-serveren. Vennligst sjekk brukernavnet og passordet ditt.';
 $lang['ftp_unable_to_mkdir'] = 'Kunne ikke opprette katalogen du har angitt.';
 $lang['ftp_unable_to_changedir'] = 'Kan ikke endre kataloger.';
 $lang['ftp_unable_to_chmod'] = 'Kunne ikke angi filtillatelser. Vennligst sjekk banen din.';
@@ -48,4 +48,4 @@ $lang['ftp_unable_to_download'] = 'Kan ikke laste ned den angitte filen. Vennlig
 $lang['ftp_no_source_file'] = 'Kunne ikke finne kildefilen. Vennligst sjekk banen din.';
 $lang['ftp_unable_to_rename'] = 'Kunne ikke gi nytt navn til filen.';
 $lang['ftp_unable_to_delete'] = 'Kunne ikke slette filen.';
-$lang['ftp_unable_to_move'] = 'Kunne ikke flytte filen. Kontroller at mÃ¥lkatalogen finnes.';
+$lang['ftp_unable_to_move'] = 'Kunne ikke flytte filen. Kontroller at målkatalogen finnes.';

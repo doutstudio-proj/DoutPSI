@@ -35,7 +35,7 @@
  * @since    Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
+defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
 
 $lang['terabyte_abbr'] = 'TB';
 $lang['gigabyte_abbr'] = 'GB';

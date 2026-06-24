@@ -35,7 +35,7 @@
  * @since    Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') or exit('Direktaccess till skriptet Ã¤r inte tillÃ¥tet');
+defined('BASEPATH') or exit('Direktaccess till skriptet är inte tillåtet');
 
 $lang['profiler_database'] = 'DATABASE';
 $lang['profiler_controller_info'] = 'CLASS/METHOD';
@@ -48,13 +48,13 @@ $lang['profiler_memory_usage'] = 'MEMORY USAGE';
 $lang['profiler_config'] = 'CONFIG VARIABLES';
 $lang['profiler_session_data'] = 'SESSION DATA';
 $lang['profiler_headers'] = 'HTTP HEADERS';
-$lang['profiler_no_db'] = 'Databasdrivrutinen Ã¤r fÃ¶r nÃ¤rvarande inte laddad';
-$lang['profiler_no_queries'] = 'Inga frÃ¥gor kÃ¶rdes';
+$lang['profiler_no_db'] = 'Databasdrivrutinen är för närvarande inte laddad';
+$lang['profiler_no_queries'] = 'Inga frågor kördes';
 $lang['profiler_no_post'] = 'Inga POST-data finns';
 $lang['profiler_no_get'] = 'Det finns inga GET-data';
 $lang['profiler_no_uri'] = 'Det finns inga URI-data';
-$lang['profiler_no_memory'] = 'MinnesanvÃ¤ndning Ã¤r inte tillgÃ¤nglig';
+$lang['profiler_no_memory'] = 'Minnesanvändning är inte tillgänglig';
 $lang['profiler_no_profiles'] = 'Inga profildata - alla Profiler-sektioner har inaktiverats.';
-$lang['profiler_section_hide'] = 'GÃ¶m';
+$lang['profiler_section_hide'] = 'Göm';
 $lang['profiler_section_show'] = 'Visa';
 $lang['profiler_seconds'] = 'Sekunder';

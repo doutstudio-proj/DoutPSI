@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') or exit('No direct script access allowed');
 
-$lang['migration_none_found'] = 'ä¸éœ€è¿ç§»ã€‚  ';
-$lang['migration_not_found'] = 'æ— æ³•æ ¹æ®ç‰ˆæœ¬å·æ‰¾åˆ°è¿ç§»æ–¹æ³•ï¼š %sã€‚';
-$lang['migration_sequence_gap'] = 'ç‰ˆæœ¬è¿ç§»å­˜åœ¨é¸¿æ²Ÿï¼š%sã€‚';
-$lang['migration_multiple_version'] = 'å¤šä¸ªè¿ç§»å¯¹åº”åŒä¸€ç‰ˆæœ¬å·ï¼š%sã€‚';
-$lang['migration_class_doesnt_exist'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s"ã€‚';
-$lang['migration_missing_up_method'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s" ä¸­çš„ "up" æ–¹æ³•ã€‚';
-$lang['migration_missing_down_method'] = 'æ— æ³•æ‰¾åˆ°è¿ç§»ç±» "%s" ä¸­çš„ " æ–¹æ³•ã€‚';
-$lang['migration_invalid_filename'] = 'æ— æ•ˆçš„è¿ç§»æ–‡ä»¶åï¼š"%s"ã€‚';
+$lang['migration_none_found'] = '不需迁移。  ';
+$lang['migration_not_found'] = '无法根据版本号找到迁移方法： %s。';
+$lang['migration_sequence_gap'] = '版本迁移存在鸿沟：%s。';
+$lang['migration_multiple_version'] = '多个迁移对应同一版本号：%s。';
+$lang['migration_class_doesnt_exist'] = '无法找到迁移类 "%s"。';
+$lang['migration_missing_up_method'] = '无法找到迁移类 "%s" 中的 "up" 方法。';
+$lang['migration_missing_down_method'] = '无法找到迁移类 "%s" 中的 " 方法。';
+$lang['migration_invalid_filename'] = '无效的迁移文件名："%s"。';
