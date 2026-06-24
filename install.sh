@@ -138,7 +138,7 @@ fi
 # --- Porta PHP-FPM (9000) ---
 echo -n "  Porta 9000 (PHP-FPM): "
 if ! port_in_use 9000; then
-    PHPFPM_SOCK="/run/php/php8.2-fpm.sock"
+    PHPFPM_SOCK="/run/php/php8.3-fpm.sock"
     echo -e "${GREEN}livre${NC} -> usando socket Unix (mais rapido)"
 else
     PROC=$(port_process 9000)
@@ -312,7 +312,7 @@ else
     info "MySQL existente sera utilizado na porta $MYSQL_PORT"
 fi
 
-step "Instalando PHP 8.2 e extensoes"
+step "Instalando PHP 8.3 e extensoes"
 
 if grep -qi "ubuntu" /etc/os-release; then
     add-apt-repository -y ppa:ondrej/php > /dev/null 2>&1 || true
@@ -320,26 +320,26 @@ if grep -qi "ubuntu" /etc/os-release; then
 fi
 
 apt-get install -y -qq \
-    php8.2-fpm \
-    php8.2-mysql \
-    php8.2-curl \
-    php8.2-mbstring \
-    php8.2-gd \
-    php8.2-xml \
-    php8.2-intl \
-    php8.2-zip \
-    php8.2-bcmath \
-    php8.2-fileinfo \
+    php8.3-fpm \
+    php8.3-mysql \
+    php8.3-curl \
+    php8.3-mbstring \
+    php8.3-gd \
+    php8.3-xml \
+    php8.3-intl \
+    php8.3-zip \
+    php8.3-bcmath \
+    php8.3-fileinfo \
     > /dev/null 2>&1
 
-success "PHP 8.2 instalado"
+success "PHP 8.3 instalado"
 
 # Configurar PHP-FPM para porta alternativa se necessario
-if [[ "$PHPFPM_SOCK" != "/run/php/php8.2-fpm.sock" ]]; then
+if [[ "$PHPFPM_SOCK" != "/run/php/php8.3-fpm.sock" ]]; then
     info "Reconfigurando PHP-FPM para $PHPFPM_SOCK..."
-    PHPFPM_POOL="/etc/php/8.2/fpm/pool.d/www.conf"
+    PHPFPM_POOL="/etc/php/8.3/fpm/pool.d/www.conf"
     sed -i "s|^listen = .*|listen = $PHPFPM_SOCK|" "$PHPFPM_POOL"
-    systemctl restart php8.2-fpm
+    systemctl restart php8.3-fpm
     success "PHP-FPM configurado em $PHPFPM_SOCK"
 fi
 
@@ -706,7 +706,7 @@ esac
 # =============================================================================
 step "Otimizando PHP"
 
-cat > "/etc/php/8.2/fpm/conf.d/99-doutpsi.ini" <<PHPINI
+cat > "/etc/php/8.3/fpm/conf.d/99-doutpsi.ini" <<PHPINI
 upload_max_filesize = 32M
 post_max_size = 32M
 memory_limit = 256M
@@ -714,14 +714,14 @@ max_execution_time = 120
 date.timezone = America/Sao_Paulo
 PHPINI
 
-systemctl restart php8.2-fpm
+systemctl restart php8.3-fpm
 success "PHP-FPM reiniciado"
 
 # =============================================================================
 # BOOT
 # =============================================================================
 step "Habilitando servicos no boot"
-systemctl enable nginx php8.2-fpm mysql 2>/dev/null || true
+systemctl enable nginx php8.3-fpm mysql 2>/dev/null || true
 success "Servicos habilitados"
 
 # =============================================================================
@@ -779,7 +779,7 @@ echo "  Logs:     ${INSTALL_DIR}/storage/logs/"
 echo "  Nginx:    /var/log/nginx/doutpsi_error.log"
 echo ""
 echo "  COMANDOS UTEIS:"
-echo "  Reiniciar:  sudo systemctl restart nginx php8.2-fpm"
+echo "  Reiniciar:  sudo systemctl restart nginx php8.3-fpm"
 echo "  Ver logs:   sudo tail -f /var/log/nginx/doutpsi_error.log"
 echo "  Portas:     sudo ss -tlnp | grep -E ':80|:443|:3306|:${HTTP_PORT}'"
 [[ "$SETUP_SSL" =~ ^[Ss]$ ]] && echo "  SSL:        sudo certbot renew"
