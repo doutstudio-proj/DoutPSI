@@ -17,6 +17,31 @@
             </p>
 
             <div class="row">
+                <?php if (session('role_slug') === DB_SLUG_ADMIN): ?>
+                <div class="col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header border-success border-bottom-0 pb-0">
+                            <h5 class="fw-light mb-0 text-success">
+                                <i class="fab fa-whatsapp me-2"></i> Evolution GO
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3 integration-info">
+                                <small>
+                                    Conecte o DoutPSI ao WhatsApp através da Evolution API. Configure as instâncias e permita que o sistema envie notificações automáticas de consultas para os pacientes dos seus psicólogos.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card-footer border-0">
+                            <a href="<?= site_url('evolution_settings') ?>" class="btn btn-outline-success w-100">
+                                <i class="fas fa-cogs me-2"></i>
+                                <?= lang('configure') ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <?php endif; ?>
+
                 <div class="col-sm-6 mb-4">
                     <div class="card h-100">
                         <div class="card-header">

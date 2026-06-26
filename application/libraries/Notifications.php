@@ -197,6 +197,41 @@ class Notifications
                     $this->log_exception($e, 'appointment-saved to secretary', $appointment['id'] ?? null);
                 }
             }
+
+            // WhatsApp Notification for Customer (Evolution GO)
+            $whatsapp_enabled = filter_var($this->CI->providers_model->get_setting($provider['id'], 'whatsapp_notifications'), FILTER_VALIDATE_BOOLEAN);
+            if ($whatsapp_enabled && !empty($customer['phone_number'])) {
+                $this->CI->load->library('evolution_client');
+                if ($this->CI->evolution_client->is_configured()) {
+                    $instance_name = $this->CI->providers_model->get_setting($provider['id'], 'evolution_instance');
+                    if (!empty($instance_name)) {
+                        try {
+                            $state = $this->CI->evolution_client->get_connection_state($instance_name);
+                            if ($state === 'open') {
+                                $date_fmt = date('d/m/Y', strtotime($appointment['start_datetime']));
+                                $time_fmt = date('H:i', strtotime($appointment['start_datetime']));
+                                $title = $manage_mode ? '🗓️ *Sessão Reagendada/Alterada*' : '🗓️ *Sessão Confirmada*';
+                                
+                                $msg = "{$title}\n\n"
+                                     . "Olá, {$customer['first_name']}!\n\n"
+                                     . "Sua consulta com {$provider['first_name']} está marcada para:\n\n"
+                                     . "📅 {$date_fmt} às {$time_fmt}\n";
+                                     
+                                if (!empty($appointment['meeting_link'])) {
+                                    $msg .= "🔗 Link: {$appointment['meeting_link']}\n\n";
+                                }
+                                
+                                $msg .= "\nQualquer dúvida, entre em contato!\nAté breve! 🌿";
+                                      
+                                $this->CI->evolution_client->send_text($instance_name, $customer['phone_number'], $msg);
+                            }
+                        } catch (Throwable $e) {
+                            $this->log_exception($e, 'whatsapp-notification to customer', $appointment['id'] ?? null);
+                        }
+                    }
+                }
+            }
+
         } catch (Throwable $e) {
             $this->log_exception($e, 'appointment-saved (general exception)', $appointment['id'] ?? null);
         } finally {
@@ -332,6 +367,39 @@ class Notifications
                     $this->log_exception($e, 'appointment-deleted to secretary', $appointment['id'] ?? null);
                 }
             }
+
+            // WhatsApp Notification for Customer (Evolution GO) - Cancellation
+            $whatsapp_enabled = filter_var($this->CI->providers_model->get_setting($provider['id'], 'whatsapp_notifications'), FILTER_VALIDATE_BOOLEAN);
+            if ($whatsapp_enabled && !empty($customer['phone_number'])) {
+                $this->CI->load->library('evolution_client');
+                if ($this->CI->evolution_client->is_configured()) {
+                    $instance_name = $this->CI->providers_model->get_setting($provider['id'], 'evolution_instance');
+                    if (!empty($instance_name)) {
+                        try {
+                            $state = $this->CI->evolution_client->get_connection_state($instance_name);
+                            if ($state === 'open') {
+                                $date_fmt = date('d/m/Y', strtotime($appointment['start_datetime']));
+                                $time_fmt = date('H:i', strtotime($appointment['start_datetime']));
+                                
+                                $msg = "❌ *Sessão Cancelada*\n\n"
+                                     . "Olá, {$customer['first_name']}.\n\n"
+                                     . "Sua consulta do dia {$date_fmt} às {$time_fmt} com {$provider['first_name']} foi cancelada.\n\n";
+                                     
+                                if (!empty($cancellation_reason)) {
+                                    $msg .= "Motivo: {$cancellation_reason}\n\n";
+                                }
+                                
+                                $msg .= "Qualquer dúvida, estamos à disposição.";
+                                      
+                                $this->CI->evolution_client->send_text($instance_name, $customer['phone_number'], $msg);
+                            }
+                        } catch (Throwable $e) {
+                            $this->log_exception($e, 'whatsapp-cancellation to customer', $appointment['id'] ?? null);
+                        }
+                    }
+                }
+            }
+
         } catch (Throwable $e) {
             log_message(
                 'error',

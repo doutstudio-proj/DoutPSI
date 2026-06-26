@@ -13,6 +13,7 @@
 
 use Google\Service\Calendar\Event;
 use Google\Service\Calendar\Events;
+use Google\Service\Oauth2;
 
 /**
  * Google sync library.
@@ -107,9 +108,24 @@ class Google_sync
         $this->client->setRedirectUri(site_url('google/oauth_callback'));
         $this->client->setPrompt('consent');
         $this->client->setAccessType('offline');
-        $this->client->addScope([Google_Service_Calendar::CALENDAR]);
+        $this->client->addScope([
+            Google_Service_Calendar::CALENDAR,
+            'openid',
+            'email',
+            'profile'
+        ]);
 
         $this->service = new Google_Service_Calendar($this->client);
+    }
+
+    /**
+     * Override the default redirect URI.
+     *
+     * @param string $uri
+     */
+    public function set_redirect_uri(string $uri): void
+    {
+        $this->client->setRedirectUri($uri);
     }
 
     /**
@@ -156,6 +172,32 @@ class Google_sync
         }
 
         return $response;
+    }
+
+    /**
+     * Get user information from Google OAuth.
+     *
+     * @param string $access_token
+     *
+     * @return array
+     *
+     * @throws Exception
+     */
+    public function get_user_info(string $access_token): array
+    {
+        $this->client->setAccessToken($access_token);
+        
+        $oauth2 = new Oauth2($this->client);
+        $user_info = $oauth2->userinfo->get();
+        
+        return [
+            'google_id' => $user_info->id,
+            'email' => $user_info->email,
+            'name' => $user_info->name,
+            'given_name' => $user_info->givenName,
+            'family_name' => $user_info->familyName,
+            'picture' => $user_info->picture,
+        ];
     }
 
     /**

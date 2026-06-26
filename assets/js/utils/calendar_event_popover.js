@@ -1,4 +1,4 @@
-﻿/* ----------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------
  * DoutPsi - Online Appointment Scheduler
  *
  * @package     DoutPsi
@@ -300,6 +300,16 @@ App.Utils.CalendarEventPopover = (function () {
                 ...createPopoverRow('notes', getEventNotes(info.event)),
                 renderCustomContent(info),
                 $('<hr/>'),
+                $('<div/>', {
+                    class: 'd-flex justify-content-center mb-2',
+                    html: [
+                        $('<a/>', {
+                            class: 'btn btn-outline-primary',
+                            href: App.Utils.Url.siteUrl('patient_records/index/' + customer.id),
+                            html: [$('<i/>', {class: 'fas fa-notes-medical me-2'}), $('<span/>', {text: 'Prontuário'})]
+                        })
+                    ]
+                }),
                 createPopoverButtons(displayEdit, displayDelete),
             ],
         });

@@ -105,6 +105,13 @@
                         <?= lang('account') ?>
                     </a>
 
+                    <?php if (session('role_slug') === DB_SLUG_PROVIDER || session('role_slug') === DB_SLUG_ADMIN): ?>
+                        <a class="dropdown-item" href="<?= site_url('whatsapp_settings') ?>">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            WhatsApp
+                        </a>
+                    <?php endif; ?>
+
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="<?= site_url('booking') ?>" target="_blank">
                         <i class="fas fa-external-link me-2"></i>

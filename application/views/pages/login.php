@@ -61,14 +61,22 @@
     <?php endif; ?>
 
     <div class="d-grid gap-2 mb-3">
-        <button type="submit" id="login" class="btn btn-primary">
+        <button type="submit" id="login" class="btn btn-primary mb-2">
             <i class="fas fa-sign-in-alt me-2"></i>
             <?= lang('login') ?>
         </button>
+        <a href="<?= site_url('google_login/redirect?action=login') ?>" class="btn btn-outline-dark">
+            <img src="<?= asset_url('assets/img/google.png') ?>" alt="Google" width="20" class="me-2">
+            Entrar com Google
+        </a>
     </div>
 
     <div class="text-center">
-        <a href="<?= site_url('recovery') ?>" class="text-decoration-none  small">
+        <a href="<?= site_url('register') ?>" class="text-decoration-none small d-block mb-2">
+            <i class="fas fa-user-plus me-1"></i>
+            Não tem uma conta? Cadastre-se
+        </a>
+        <a href="<?= site_url('recovery') ?>" class="text-decoration-none small d-block">
             <i class="fas fa-key me-1"></i>
             <?= lang('forgot_your_password') ?>
         </a>

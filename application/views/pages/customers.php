@@ -45,6 +45,13 @@
                             <?= lang('edit') ?>
                         </button>
                     <?php endif; ?>
+                    
+                    <?php if (can('view', PRIV_CUSTOMERS) || vars('role_slug') === DB_SLUG_PROVIDER || vars('role_slug') === DB_SLUG_ADMIN): ?>
+                        <button id="prontuario-btn" class="btn btn-outline-primary ms-2" disabled="disabled" style="border-radius: 0.25rem;">
+                            <i class="fas fa-notes-medical me-2"></i>
+                            Prontuário
+                        </button>
+                    <?php endif; ?>
                 </div>
 
                 <div id="save-cancel-group" style="display:none;">
@@ -223,5 +230,21 @@
 
 <script src="<?= asset_url('assets/js/http/customers_http_client.js') ?>"></script>
 <script src="<?= asset_url('assets/js/pages/customers.js') ?>"></script>
+<script>
+    $(document).ready(function() {
+        // Enable prontuario button when a customer is selected
+        $('#customers').on('click', '.customer-row', function() {
+            $('#prontuario-btn').prop('disabled', false);
+        });
+
+        $('#prontuario-btn').click(function(e) {
+            e.preventDefault();
+            var customerId = $('#customer-id').val();
+            if (customerId) {
+                window.location.href = '<?= site_url('patient_records/index/') ?>' + customerId;
+            }
+        });
+    });
+</script>
 
 <?php end_section('scripts'); ?>
